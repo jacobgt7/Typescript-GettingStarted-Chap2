@@ -47,3 +47,7 @@ const logMessage = (message: string) => console.log(message);
 function logError(err: string): void {
     console.error(err);
 }
+
+const firstPlayer: Player = new Player();
+firstPlayer.name = 'Lanier';
+console.log(firstPlayer.formatName());
